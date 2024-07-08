@@ -1,0 +1,12 @@
+{
+    "name": "lambda-mongodb",
+    "version": "1.0.0",
+    "description": "AWS Lambda function to fetch data from MongoDB",
+    "main": "index.mjs",
+    "type": "module",
+    "dependencies": {
+      "mongoose": "^6.0.0",
+      "dotenv": "^16.0.0"
+    }
+  }
+  

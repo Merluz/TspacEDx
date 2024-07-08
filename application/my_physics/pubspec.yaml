@@ -1,0 +1,34 @@
+name: my_physics
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  url_launcher: ^6.0.9
+  cached_network_image: ^3.1.0
+  cupertino_icons: ^1.0.6
+  video_player: ^2.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+    - assets/images/statistic.png
+    - assets/images/saturn.png
+    - assets/video/Intro.mp4
+  fonts:
+    - family: MyCustomFont
+      fonts:
+        - asset: assets/Playwrite_MX/Playwrite.ttf
